@@ -132,3 +132,11 @@ PB12 ve PB13 pinlerinden butondan okuma yapılacağı
 için EXTI olarak seçilmiştir.
 
 SYS ayarları:
+
+![image](https://user-images.githubusercontent.com/61049743/94344913-4835a100-002b-11eb-954e-5d70f0d9215b.png)
+
+STM32F103 kullandığımızdan dolayı kodları ST-Link V2
+aracılığıyla yüklemekteyiz ve bundan dolayı serial wire
+seçilmiştir
+
+RCC ayarları:
