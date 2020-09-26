@@ -150,3 +150,6 @@ belirttik.
 ![image](https://user-images.githubusercontent.com/61049743/94344968-977bd180-002b-11eb-96e4-edb0b8e0df18.png)
 
 ![image](https://user-images.githubusercontent.com/61049743/94344992-b11d1900-002b-11eb-8513-db46dc279d7c.png)
+
+![image](https://user-images.githubusercontent.com/61049743/94345009-ca25ca00-002b-11eb-8a77-2db3702c6c3c.png)
+
