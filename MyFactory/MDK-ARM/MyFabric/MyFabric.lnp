@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"myfabric\system_stm32f1xx.o"
+"myfabric\stm32f1xx_hal_gpio_ex.o"
+"myfabric\stm32f1xx_hal_adc.o"
+"myfabric\stm32f1xx_hal_adc_ex.o"
+"myfabric\stm32f1xx_hal.o"
+"myfabric\stm32f1xx_hal_cortex.o"
+"myfabric\stm32f1xx_hal_pwr.o"
+"myfabric\stm32f1xx_hal_rcc.o"
+"myfabric\stm32f1xx_hal_dma.o"
+"myfabric\stm32f1xx_hal_tim.o"
+"myfabric\stm32f1xx_hal_tim_ex.o"
+"myfabric\stm32f1xx_hal_uart.o"
+"myfabric\stm32f1xx_hal_gpio.o"
+"myfabric\stm32f1xx_hal_flash.o"
+"myfabric\stm32f1xx_hal_flash_ex.o"
+"myfabric\stm32f1xx_hal_rcc_ex.o"
+"myfabric\main.o"
+"myfabric\stm32f1xx_hal_msp.o"
+"myfabric\stm32f1xx_it.o"
+"myfabric\startup_stm32f103xb.o"
+--library_type=microlib --strict --scatter "MyFabric\MyFabric.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "MyFabric.map" -o MyFabric\MyFabric.axf
