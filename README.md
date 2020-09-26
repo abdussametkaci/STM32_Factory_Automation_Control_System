@@ -114,3 +114,11 @@ Bu birimde channel 1 kullanılacaktır ve global interrupt
 aktif edilmiştir.
 
 ADC1 ayarları aşağıdaki gibidir:
+
+![image](https://user-images.githubusercontent.com/61049743/94344868-0a387d00-002b-11eb-8cf4-a81cfaabc52a.png)
+
+Bu projede STM32F103 modeli kullandığımız için
+sadece 12 bit desteklemektedir. Bu yüzden yazılımda 6
+bit çözünürlüğe indirgenecektir.
+
+GPIO ayarları aşağıdaki gibidir:
