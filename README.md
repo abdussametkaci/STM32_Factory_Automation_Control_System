@@ -1,5 +1,5 @@
 # Fabrika Otomasyonu Kontrol Sistemi
-## Proje Sonunda Ortaya Çıkacak Ürünün Özellikleri:
+## Proje Sonunda Ortaya Çıkacak Ürünün Özellikleri
 Proje bir fabrika bandının genel çalışma presibine dayanarak yapılmıştır. İki adet butonumuz vardır ve bu butonlardan
 birisi fabrikayı açıp kapamak için, diğeri ise ürün bandına bir eklemek için kulllanılmştır. NTC sensöründen 0.5 saniye
 aralıklarla sıcaklık ölçümü yapılmaktadır. Birinci ürün grubu sıcak, ikinci ürün grubu soğuktur. Fabrika açıldığında led
@@ -8,7 +8,7 @@ yanar ve hangi grup ürün geldiyse onu temsil eden led yanmaktadır. TIMER biri
 gösterilmektedir.Projede stm32’den bilgisayara USART ile mesaj gönderilmesi istenmiştir.Ancak biz USB TTL
 kullanımında sıkıntı yaşadığımız için stm32’nin içindeki 2 tane USART birimi arasında haberleşme yaptık.
 
-## Projede Kullanılacak Malzemeler ve Özellikleri:
+## Projede Kullanılacak Malzemeler ve Özellikleri
 • 4 adet led
 
     o Fabrikanın açık olup olmadığını göstermek için,
@@ -35,7 +35,7 @@ yapmak amacıyla kullanılmıştır.
 
 ![image](https://user-images.githubusercontent.com/61049743/94344607-394def00-0029-11eb-8a89-d3b0ca152319.png)
 
-## Kullanılan Malzemelerin Çalışması için STM CubeMX ayarları:
+## Kullanılan Malzemelerin Çalışması için STM CubeMX ayarları
 ![image](https://user-images.githubusercontent.com/61049743/94344657-731ef580-0029-11eb-8f8a-bd0c290ab0c6.png)
 
 PA0 – PA6 arasındaki pinler Seven Segment göstergeler
@@ -146,10 +146,12 @@ RCC ayarları:
 Clock sinyalinin harici kristal osilatörden alacağını
 belirttik.
 
-## Projenin Tamamlanan Koduna Ait Akış Diagramı:
+## Projenin Tamamlanan Koduna Ait Akış Diagramı
 ![image](https://user-images.githubusercontent.com/61049743/94344968-977bd180-002b-11eb-96e4-edb0b8e0df18.png)
 
 ![image](https://user-images.githubusercontent.com/61049743/94344992-b11d1900-002b-11eb-8513-db46dc279d7c.png)
 
 ![image](https://user-images.githubusercontent.com/61049743/94345009-ca25ca00-002b-11eb-8a77-2db3702c6c3c.png)
 
+## Projenin Birmiş Hali
+![image](https://user-images.githubusercontent.com/61049743/94345050-0527fd80-002c-11eb-84cb-3af82d4cb3f5.png)
