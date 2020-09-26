@@ -10,6 +10,7 @@ kullanımında sıkıntı yaşadığımız için stm32’nin içindeki 2 tane US
 
 ## Projede Kullanılacak Malzemeler ve Özellikleri:
  4 adet led
+
     o Fabrikanın açık olup olmadığını göstermek için,
     o Hangi grup ürün geldiğini göstermek için (2 led),
     o Toplam ürün sayısı aşımlarını göstermek için kullanılmıştır.
@@ -17,13 +18,17 @@ kullanımında sıkıntı yaşadığımız için stm32’nin içindeki 2 tane US
  NTC sensörü : Sıcaklığa bağlı olarak ADC değeri okumak için kullanılmıştır. Bu projede stm32f103c8t6 modeli
 kullanılmıştır ve bu model sadece 12 bit çözünürlük desteklemektedir. Projede ise 6 bit istenmektedir ve gelen
 ADC değeri 6 bite dönüştürülmüştür. Bunun için aşağıdaki formül kullanılmıştır:
-    o (2
-6 – 1) x 12 bitlik adc değeri / (2
-12 – 1)
+
+    o ![image](https://user-images.githubusercontent.com/61049743/94344563-f429bd00-0028-11eb-98ce-1b6f9cbdf4e7.png)
+    
  2 adet buton
+
     o Fabrikayı açmak/kapatmak için
     o Ürün eklemek için kullanlmıştır.
+    
  2 adet seven segment gösterge : Toplam ürün adedini göstermek amacıyla kullanılmıştır.
+
  2 adet BC337 (BJT NPN) transistör : Hangi seven segment göstergenin yanacağını seçmek için anahtarlama
 yapmak amacıyla kullanılmıştır.
+
  TIMER birimi prescaler ve counter periyot değerlerini hesaplamak için kullandığımız formül:
