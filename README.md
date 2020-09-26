@@ -122,3 +122,13 @@ sadece 12 bit desteklemektedir. Bu yüzden yazılımda 6
 bit çözünürlüğe indirgenecektir.
 
 GPIO ayarları aşağıdaki gibidir:
+
+![image](https://user-images.githubusercontent.com/61049743/94344885-2805e200-002b-11eb-84a5-c6dc05e19469.png)
+
+PA0-PA6, PA11, PA12, PB0, PB1, PB3, ve PB5 pinleri
+OUTPUT olarak ayarlanmıştır.
+
+PB12 ve PB13 pinlerinden butondan okuma yapılacağı
+için EXTI olarak seçilmiştir.
+
+SYS ayarları:
