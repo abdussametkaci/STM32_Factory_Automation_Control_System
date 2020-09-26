@@ -34,3 +34,6 @@ yapmak amacıyla kullanılmıştır.
  TIMER birimi prescaler ve counter periyot değerlerini hesaplamak için kullandığımız formül:
 
 ![image](https://user-images.githubusercontent.com/61049743/94344607-394def00-0029-11eb-8a89-d3b0ca152319.png)
+
+## Kullanılan Malzemelerin Çalışması için STM CubeMX ayarları:
+
