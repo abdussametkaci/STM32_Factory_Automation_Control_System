@@ -140,3 +140,10 @@ aracılığıyla yüklemekteyiz ve bundan dolayı serial wire
 seçilmiştir
 
 RCC ayarları:
+
+![image](https://user-images.githubusercontent.com/61049743/94344935-66030600-002b-11eb-9c27-f0bf3dd009e6.png)
+
+Clock sinyalinin harici kristal osilatörden alacağını
+belirttik.
+
+## Projenin Tamamlanan Koduna Ait Akış Diagramı:
