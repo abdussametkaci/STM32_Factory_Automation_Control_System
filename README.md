@@ -103,3 +103,14 @@ Bu birimde channel 1 kullanılacaktır ve global interrupt
 aktif edilmiştir.
 
 TIMER 4 ayarları aşağıdaki gibi yapılmıştır:
+
+![image](https://user-images.githubusercontent.com/61049743/94344848-d9f0de80-002a-11eb-8414-fd6c46244e53.png)
+
+Timer 4 birimi, 0.2 Hz frekansta (5 saniye periyot)
+çalışacak şekilde ayarlanmıştır. Ayarlar yapılırken STM
+saat hızı (16 MHZ) dikkate alınmıştır.
+
+Bu birimde channel 1 kullanılacaktır ve global interrupt
+aktif edilmiştir.
+
+ADC1 ayarları aşağıdaki gibidir:
