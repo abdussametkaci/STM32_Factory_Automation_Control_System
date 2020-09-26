@@ -147,3 +147,5 @@ Clock sinyalinin harici kristal osilatörden alacağını
 belirttik.
 
 ## Projenin Tamamlanan Koduna Ait Akış Diagramı:
+![image](https://user-images.githubusercontent.com/61049743/94344968-977bd180-002b-11eb-96e4-edb0b8e0df18.png)
+
