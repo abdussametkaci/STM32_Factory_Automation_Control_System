@@ -149,3 +149,4 @@ belirttik.
 ## Projenin Tamamlanan Koduna Ait Akış Diagramı:
 ![image](https://user-images.githubusercontent.com/61049743/94344968-977bd180-002b-11eb-96e4-edb0b8e0df18.png)
 
+![image](https://user-images.githubusercontent.com/61049743/94344992-b11d1900-002b-11eb-8513-db46dc279d7c.png)
