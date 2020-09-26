@@ -10,7 +10,6 @@ kullanımında sıkıntı yaşadığımız için stm32’nin içindeki 2 tane US
 
 ## Projede Kullanılacak Malzemeler ve Özellikleri:
  4 adet led
-
     o Fabrikanın açık olup olmadığını göstermek için,
     o Hangi grup ürün geldiğini göstermek için (2 led),
     o Toplam ürün sayısı aşımlarını göstermek için kullanılmıştır.
