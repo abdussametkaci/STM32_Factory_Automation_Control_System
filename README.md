@@ -92,3 +92,14 @@ Interrupt aktif edilmiştir.
 TIMER 3 ayarları aşağıdaki gibi yapılmıştır:
 
 ![image](https://user-images.githubusercontent.com/61049743/94344809-82eb0980-002a-11eb-8314-76334a74819b.png)
+
+![image](https://user-images.githubusercontent.com/61049743/94344823-9b5b2400-002a-11eb-83ea-06d637d8139c.png)
+
+Timer 3 birimi, 2 Hz frekansta (0.5 saniye periyot)
+çalışacak şekilde ayarlanmıştır. Ayarlar yapılırken STM
+saat hızı (16 MHZ) dikkate alınmıştır.
+
+Bu birimde channel 1 kullanılacaktır ve global interrupt
+aktif edilmiştir.
+
+TIMER 4 ayarları aşağıdaki gibi yapılmıştır:
