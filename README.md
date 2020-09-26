@@ -83,3 +83,11 @@ haberleşmenin yapılacağı periyodu belirler.
 USART1 ve USART3 ayarları aşağıdaki gibi yapılmıştır:
 
 ![image](https://user-images.githubusercontent.com/61049743/94344776-49b29980-002a-11eb-9a2a-3d5a369d932e.png)
+
+UART1, 115200 bps olacak, data uzunluğu 8 bit olacak
+şekilde konfigüre edilmiştir.
+
+Interrupt aktif edilmiştir.
+
+TIMER 3 ayarları aşağıdaki gibi yapılmıştır:
+
