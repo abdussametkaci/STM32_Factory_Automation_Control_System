@@ -91,3 +91,4 @@ Interrupt aktif edilmiştir.
 
 TIMER 3 ayarları aşağıdaki gibi yapılmıştır:
 
+![image](https://user-images.githubusercontent.com/61049743/94344809-82eb0980-002a-11eb-8314-76334a74819b.png)
