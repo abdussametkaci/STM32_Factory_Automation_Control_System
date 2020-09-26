@@ -19,7 +19,7 @@ kullanımında sıkıntı yaşadığımız için stm32’nin içindeki 2 tane US
 kullanılmıştır ve bu model sadece 12 bit çözünürlük desteklemektedir. Projede ise 6 bit istenmektedir ve gelen
 ADC değeri 6 bite dönüştürülmüştür. Bunun için aşağıdaki formül kullanılmıştır:
 
-    o ![image](https://user-images.githubusercontent.com/61049743/94344563-f429bd00-0028-11eb-98ce-1b6f9cbdf4e7.png)
+![image](https://user-images.githubusercontent.com/61049743/94344563-f429bd00-0028-11eb-98ce-1b6f9cbdf4e7.png)
     
  2 adet buton
 
